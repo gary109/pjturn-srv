@@ -1,0 +1,63 @@
+﻿已經開始建置於 2015/3/24 下午 12:00:18。
+     1>節點 2 (Rebuild 目標) 上的專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\pjturn-client\pjturn-client.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\\pjnath\include" /I"C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\\pjlib-util\include" /I"C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\\pjlib\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "..\..\pjproject-2.3\pjproject-2.3\pjnath\src\pjturn-client\client_main.c"
+         client_main.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\pjturn-client.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\\pjnath\lib" /LIBPATH:"C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\\pjlib-util\lib" /LIBPATH:"C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\\pjlib\lib" ws2_32.lib pjnath.lib pjlib.lib pjlib_util.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\pjturn-client.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\pjturn-client.lib" /MACHINE:X86 Debug\client_main.obj
+     1>LINK : warning LNK4098: 預設的程式庫 'MSVCRT' 與其他使用的程式庫衝突，請使用 /NODEFAULTLIB:library
+     1>pjnath.lib(errno.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjnath.lib(errno.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjnath.lib(stun_auth.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjnath.lib(stun_auth.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjnath.lib(stun_msg.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjnath.lib(stun_msg.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjnath.lib(stun_msg_dump.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjnath.lib(stun_msg_dump.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjnath.lib(stun_session.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjnath.lib(stun_session.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjnath.lib(stun_sock.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjnath.lib(stun_sock.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjnath.lib(stun_transaction.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjnath.lib(stun_transaction.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjnath.lib(turn_session.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjnath.lib(turn_session.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjnath.lib(turn_sock.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjnath.lib(turn_sock.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib.lib(activesock.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib.lib(activesock.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib.lib(addr_resolv_sock.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib.lib(addr_resolv_sock.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib.lib(config.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib.lib(config.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib.lib(errno.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib.lib(errno.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib.lib(except.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib.lib(except.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib.lib(guid_win32.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib.lib(guid_win32.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib.lib(hash.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib.lib(hash.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib.lib(ioqueue_select.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib.lib(ioqueue_select.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib.lib(ip_helper_win32.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib.lib(ip_helper_win32.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib.lib(list.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib.lib(list.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib.lib(lock.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib.lib(lock.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib.lib(log.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib.lib(log.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib.lib(log_writer_stdout.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib.lib(log_writer_stdout.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib.lib(os_core_win32.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib.lib(os_core_win32.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib.lib(os_error_win32.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib.lib(os_error_win32.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib.lib(os_timestamp_common.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib.lib(os_timestamp_common.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib.lib(os_timestamp_win32.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib.lib(os_timestamp_win32.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib.lib(os_time_win32.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib.lib(os_time_win32.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib.lib(pool.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib.lib(pool.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib.lib(pool_buf.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib.lib(pool_buf.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib.lib(pool_caching.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib.lib(pool_caching.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib.lib(pool_policy_malloc.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib.lib(pool_policy_malloc.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib.lib(rand.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib.lib(rand.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib.lib(sock_bsd.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib.lib(sock_bsd.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib.lib(sock_common.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib.lib(sock_common.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib.lib(sock_qos_bsd.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib.lib(sock_qos_bsd.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib.lib(sock_qos_common.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib.lib(sock_qos_common.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib.lib(sock_select.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib.lib(sock_select.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib.lib(string.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib.lib(string.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib.lib(timer.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib.lib(timer.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib.lib(types.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib.lib(types.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib_util.lib(crc32.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib_util.lib(crc32.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib_util.lib(dns.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib_util.lib(dns.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib_util.lib(errno.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib_util.lib(errno.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib_util.lib(getopt.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib_util.lib(getopt.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib_util.lib(hmac_sha1.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib_util.lib(hmac_sha1.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib_util.lib(md5.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib_util.lib(md5.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib_util.lib(resolver.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib_util.lib(resolver.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib_util.lib(sha1.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib_util.lib(sha1.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+     1>pjlib_util.lib(srv_resolver.obj) : warning LNK4099: 找不到 PDB 'vc120.pdb' (有 'pjlib_util.lib(srv_resolver.obj)' 或位於 'C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\vc120.pdb')，當做沒有偵錯資訊，連結物件
+         pjturn-client.vcxproj -> C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\Debug\pjturn-client.exe
+     1>專案 "C:\Users\9200\Desktop\WORK\P2P\pjsip\pjturn-srv\pjturn-client\pjturn-client.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:00.70
